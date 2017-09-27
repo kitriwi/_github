@@ -16,6 +16,7 @@ class BCommand extends Command{
 }
 //===========================================
 //factory method pattern
+//===========================================
 class CommandFactory{
 	public Command getCommand(String name){
 		Command c = null;
